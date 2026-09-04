@@ -2,13 +2,13 @@
   "name": "glosses-training",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://joh3bl.github.io/",
+  "homepage": "https://joh3bl.github.io/glosses-training",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist -e glosses-training",
     "lint": "eslint .",
     "preview": "vite preview"
   },
